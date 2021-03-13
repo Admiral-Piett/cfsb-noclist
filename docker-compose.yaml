@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  app:
+    build: .
+  noclist:
+    image: "adhocteam/noclist"
+    ports:
+      - "8888:8888"
