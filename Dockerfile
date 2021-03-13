@@ -7,4 +7,6 @@ COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
 
+RUN pytest tests/unit/
+
 CMD ["python", "app.py"]
